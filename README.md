@@ -1,6 +1,6 @@
-# Count-the-number-of-characters-in-a-string-and-printing-the-maximum-number-of-occurence
+# Count-the-number-of-characters-in-a-string-and-printing-the-maximum-number-of-occurence #
 
-
+```C++
 #include <iostream>
 #include <string>
 using namespace std;
@@ -8,9 +8,6 @@ using namespace std;
 
 // Function that return count of the given
 // character in the string
-
-
-
 
 int count(string s, char c)
 {
@@ -44,3 +41,4 @@ int main()
     cout <<( (p<=q ? p : q) <= (r<=s ? r : s) ? (p<=q? p : q) : (r<=s ? r : s)  ) << endl;
     return 0;
 }
+```
